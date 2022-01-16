@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_startActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp"
+        android:text="Start Activity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:useMaterialThemeColors="true"
+        tools:ignore="HardcodedText,RtlSymmetry,TextContrastCheck" />
+
+    <ExpandableListView
+        android:id="@+id/expandable_task1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:groupIndicator="@null"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:paddingTop="4dp"/>
+
+</LinearLayout>
